@@ -1,0 +1,24 @@
+.howone-chapter{
+  background:radial-gradient(circle at 73% 48%,#0f5a3e 0,#07291d 36%,#03140e 74%);
+}
+.howone-core{
+  background:linear-gradient(145deg,#18c985,#07593f 58%,#03251a);
+  border-color:#a9f7d0;
+  box-shadow:0 0 80px #31e59b52;
+}
+.howone-core img{
+  display:block;
+  width:118px;
+  height:auto;
+  max-height:52px;
+  object-fit:contain;
+  margin:auto;
+  filter:grayscale(1) brightness(0) invert(91%) sepia(27%) saturate(625%) hue-rotate(89deg) brightness(104%) contrast(101%);
+  mix-blend-mode:screen;
+}
+.howone-chapter .forge-agent,
+.howone-chapter .app-card{
+  border-color:#47d899;
+  background:#062c20e8;
+}
+@media(max-width:650px){.howone-core img{width:92px;max-height:42px}}
