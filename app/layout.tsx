@@ -8,6 +8,7 @@ import "./team.css";
 import "./typography.css";
 import "./hero-intelligence.css";
 import "./projects.css";
+import "./project-stars.css";
 import "./h5-story.css";
 import "./howone.css";
 import "./howone-logo.css";

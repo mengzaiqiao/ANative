@@ -1,0 +1,33 @@
+.eax-chapter .project-copy h4::after,
+.scientist-chapter .project-copy h4::after {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 18px;
+  padding: 7px 10px;
+  border: 1px solid #70efb766;
+  border-radius: 999px;
+  background: #70efb70d;
+  color: #d9ffed;
+  font: 700 9px var(--font-ai-mono);
+  letter-spacing: 0.1em;
+  vertical-align: middle;
+  box-shadow: 0 0 22px #35d89418;
+  white-space: nowrap;
+}
+
+.eax-chapter .project-copy h4::after {
+  content: "★  3.2K+ GITHUB STARS";
+}
+
+.scientist-chapter .project-copy h4::after {
+  content: "★  4.4K+ GITHUB STARS";
+}
+
+@media (max-width: 650px) {
+  .eax-chapter .project-copy h4::after,
+  .scientist-chapter .project-copy h4::after {
+    display: flex;
+    width: fit-content;
+    margin: 12px 0 0;
+  }
+}
