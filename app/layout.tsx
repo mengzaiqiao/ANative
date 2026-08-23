@@ -6,6 +6,7 @@ import "./sections.css";
 import "./redesign.css";
 import "./team.css";
 import "./typography.css";
+import "./hero-intelligence.css";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-ai-display",
