@@ -31,7 +31,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const image = `${protocol}://${host}/og.png`;
   const title = "ANative Lab — AI-Native & Agent-Native Intelligence";
   const description = "AI-native research for agent-native intelligence that learns, collaborates, and evolves.";
-  return { title, description, openGraph:{title,description,images:[{url:image,width:1200,height:630,alt:"ANative Lab"}]}, twitter:{card:"summary_large_image",title,description,images:[image]} };
+  return { title, description, icons:{icon:"/favicon.svg",apple:"/apple-touch-icon.png"}, openGraph:{title,description,images:[{url:image,width:1200,height:630,alt:"ANative Lab"}]}, twitter:{card:"summary_large_image",title,description,images:[image]} };
 }
 
 export default function RootLayout({
