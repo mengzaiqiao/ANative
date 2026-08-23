@@ -1,5 +1,7 @@
 .howone-chapter{
-  background:radial-gradient(circle at 73% 48%,#0f5a3e 0,#07291d 36%,#03140e 74%);
+  color:#fff;
+  background-color:#062b1f!important;
+  background-image:radial-gradient(circle at 73% 48%,#126545 0,#083b2a 38%,#041b13 76%)!important;
 }
 .howone-core{
   background:linear-gradient(145deg,#18c985,#07593f 58%,#03251a);
@@ -13,7 +15,7 @@
   max-height:52px;
   object-fit:contain;
   margin:auto;
-  filter:brightness(0) invert(1);
+  filter:none;
 }
 .howone-chapter .forge-agent,
 .howone-chapter .app-card{
