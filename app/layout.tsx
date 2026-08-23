@@ -9,6 +9,7 @@ import "./typography.css";
 import "./hero-intelligence.css";
 import "./projects.css";
 import "./h5-story.css";
+import "./howone.css";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-ai-display",
