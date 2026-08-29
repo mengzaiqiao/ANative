@@ -13,6 +13,7 @@ import "./h5-story.css";
 import "./howone.css";
 import "./howone-logo.css";
 import "./mobile-order.css";
+import "./site-stats.css";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-ai-display",

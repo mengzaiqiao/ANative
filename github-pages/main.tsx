@@ -13,6 +13,7 @@ import "../app/h5-story.css";
 import "../app/howone.css";
 import "../app/howone-logo.css";
 import "../app/mobile-order.css";
+import "../app/site-stats.css";
 import "./pages.css";
 
 createRoot(document.getElementById("root")!).render(
