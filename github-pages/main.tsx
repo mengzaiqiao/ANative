@@ -14,6 +14,7 @@ import "../app/howone.css";
 import "../app/howone-logo.css";
 import "../app/mobile-order.css";
 import "../app/site-stats.css";
+import "../app/brand-logo.css";
 import "./pages.css";
 
 createRoot(document.getElementById("root")!).render(
